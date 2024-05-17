@@ -1,4 +1,4 @@
-package org.iesvdm.Frontend;
+package org.viajes.Frontend;
 
 public class init {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.iesvdm.BBDD;
+package org.viajes.BBDD;
 
 public class testInit {
 }
