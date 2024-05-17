@@ -1,0 +1,152 @@
+JFDML JFormDesigner: "8.2.3.0.386" Java: "17.0.10" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "fill,hidemode 3"
+			"$columnConstraints": "[fill][fill]"
+			"$rowConstraints": "[][][][][][]"
+		} ) {
+			name: "this"
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label6"
+				"text": "  Selecciona el tipo de viaje:"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label4"
+				"text": "Tipo de categoría:"
+				"font": &SwingDerivedFont0 new com.jformdesigner.model.SwingDerivedFont( "Calibri", 131072, 0, false )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 0,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox6"
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "IDA "
+					addElement( "IDA " )
+					addElement( "IDA/VUELTA" )
+				}
+				"maximumSize": new java.awt.Dimension( 16767, 32767 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 1,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox4"
+				"background": &Color0 new java.awt.Color( 53, 95, 136, 198 )
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "1ª clase"
+					addElement( "1ª clase" )
+					addElement( "2ª clase" )
+					addElement( "3ª clase" )
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 1,alignx center,growx 0,wmin 140"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label1"
+				"text": "Elige tu origen:"
+				"font": #SwingDerivedFont0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 2,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label5"
+				"text": "Tipo de transporte:"
+				"font": #SwingDerivedFont0
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 2,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox1"
+				"background": #Color0
+				"cursor": new java.awt.Cursor( 12 )
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "Málaga"
+					addElement( "Málaga" )
+					addElement( "Sevilla" )
+					addElement( "Londres" )
+					addElement( "Copenhagen" )
+					addElement( "Hamburgo" )
+					addElement( "Bruselas" )
+					addElement( "Valencia" )
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 3,alignx center,growx 0,wmin 140"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox3"
+				"background": #Color0
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "Avión"
+					addElement( "Avión" )
+					addElement( "Tren" )
+					addElement( "Barco" )
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 3,alignx center,growx 0,wmin 140"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label2"
+				"text": "Elige tu destino:"
+				"font": &SwingDerivedFont1 new com.jformdesigner.model.SwingDerivedFont( "Calibri", 0, 0, false )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 4,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JLabel" ) {
+				name: "label3"
+				"text": "Números de pasajeros"
+				"font": #SwingDerivedFont1
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 4,alignx center,growx 0"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox5"
+				"background": #Color0
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "1"
+					addElement( "1" )
+					addElement( "2" )
+					addElement( "3" )
+					addElement( "4" )
+					addElement( "5" )
+					addElement( "6" )
+					addElement( "7" )
+					addElement( "8" )
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 4"
+			} )
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "comboBox2"
+				"background": #Color0
+				"model": new javax.swing.DefaultComboBoxModel {
+					selectedItem: "Málaga"
+					addElement( "Málaga" )
+					addElement( "Londres" )
+					addElement( "Sevilla" )
+					addElement( "Madrid" )
+					addElement( "Conpenhagen" )
+					addElement( "Hamburgo" )
+				}
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 5,alignx center,growx 0,wmin 140"
+			} )
+			add( new FormComponent( "javax.swing.JButton" ) {
+				name: "button2"
+				"text": "Enviar Datos"
+				"font": new com.jformdesigner.model.SwingDerivedFont( "Calibri", 0, 0, false )
+				"background": new java.awt.Color( 50, 77, 109, 255 )
+				"componentOrientation": sfield java.awt.ComponentOrientation LEFT_TO_RIGHT
+				"preferredSize": new java.awt.Dimension( 105, 36 )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 5,alignx center,growx 0,wmin 80"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 675, 430 )
+		} )
+	}
+}
